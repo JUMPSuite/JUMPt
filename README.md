@@ -31,7 +31,7 @@ MATLAB toolbox needed:
 
 # Installation
 Installation of the script is not required. Download all the scripts to any working directory (e.g.,/home/usr/JUMPt). IMPORTANT: All the scripts, including associated modules (associated with the program), should be placed in the same folder. 
-
+![alt text](https://github.com/JUMPSuite/JUMPt/tree/main/Fig/folder.png?raw=true)
 # Input File Preparation
 A testing dataset with 100 proteins is available for each setting, along with the scripts for evaluation purposes. Similar to the testing dataset, the user needs to prepare the input data file with the information below.
 

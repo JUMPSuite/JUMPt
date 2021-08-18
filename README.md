@@ -30,9 +30,9 @@ MATLAB toolbox needed:
 - Global Optimization toolbox along with other basic toolboxes
 
 # Installation
-Installation of the script is not required. Download all the scripts to any working directory (e.g.,/home/usr/JUMPt). IMPORTANT: All the scripts, including associated modules (associated with the program), should be placed in the same folder. 
+Installation of the script is not required. Download all the scripts to any working directory (e.g.,/home/usr/JUMPt). IMPORTANT: All the scripts, including associated modules (associated with the program), should be placed in the same folder as shown figure 1. 
 
-![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/folder.png?raw=true)
+![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/folder.png "Figure 1")
 
 # Input File Preparation
 A testing dataset with 100 proteins is available for each setting, along with the scripts for evaluation purposes. Similar to the testing dataset, the user needs to prepare the input data file with the information below.
@@ -56,7 +56,8 @@ JUMPt requires a parameter file (JUMPt.parms). The user needed to specify the fo
 # Run JUMPt program (Demo data set)
 
 Launch the MATLAB  software and open the JUMPt main program file "PT_main.m"  in it, as shown in the figure 2. Press the "Run' button as shown in the figure to start the program. Once the program begins, it will show the progress of protein fitting and the successful completion (Fig. 3).
-![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_launch.png?raw=true)
+
+![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_launch.png "Figure 2")
 
 ![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_excution.png "Figure 3")
 

@@ -31,7 +31,9 @@ MATLAB toolbox needed:
 
 # Installation
 Installation of the script is not required. Download all the scripts to any working directory (e.g.,/home/usr/JUMPt). IMPORTANT: All the scripts, including associated modules (associated with the program), should be placed in the same folder. 
+
 ![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/folder.png?raw=true)
+
 # Input File Preparation
 A testing dataset with 100 proteins is available for each setting, along with the scripts for evaluation purposes. Similar to the testing dataset, the user needs to prepare the input data file with the information below.
 
@@ -53,7 +55,11 @@ JUMPt requires a parameter file (JUMPt.parms). The user needed to specify the fo
 
 # Run JUMPt program (Demo data set)
 
-Launch the MATLAB  software and open the JUMPt main program file "PT_main.m"  in it, as shown in the figure. S8. Press the "Run' button as shown in the figure to start the program. Once the program begins, it will show the progress of protein fitting and the successful completion (Fig. S9).
+Launch the MATLAB  software and open the JUMPt main program file "PT_main.m"  in it, as shown in the figure 2. Press the "Run' button as shown in the figure to start the program. Once the program begins, it will show the progress of protein fitting and the successful completion (Fig. 3).
+![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_launch.png?raw=true)
+
+![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_excution.png "Figure 3")
+
 Non-linear fitting of proteins and Lys data using ODE is computationally expensive, especially when the protein data is huge (e.g.,> 1000 proteins). To reduce the computational complexity, we divide the proteins into sets with bin sizes between 100 -10. The program finds the optimal degradation rates (turnover rates or Half-lives) by fitting protein data (in setting-1) and free-Lys data (in setting-2 and setting-3).
 
 # Output file information 

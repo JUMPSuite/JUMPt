@@ -59,7 +59,7 @@ Launch the MATLAB  software and open the JUMPt main program file "PT_main.m"  in
 
 ![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_launch2.png "Figure 2")
 
-![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_excution.png "Figure 3")
+![Figure. 3](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_excution.png "Figure 3")
 
 Non-linear fitting of proteins and Lys data using ODE is computationally expensive, especially when the protein data is huge (e.g.,> 1000 proteins). To reduce the computational complexity, we divide the proteins into sets with bin sizes between 100 -10. The program finds the optimal degradation rates (turnover rates or Half-lives) by fitting protein data (in setting-1) and free-Lys data (in setting-2 and setting-3).
 

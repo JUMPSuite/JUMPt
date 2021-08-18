@@ -57,7 +57,7 @@ JUMPt requires a parameter file (JUMPt.parms). The user needed to specify the fo
 
 Launch the MATLAB  software and open the JUMPt main program file "PT_main.m"  in it, as shown in the figure 2. Press the "Run' button as shown in the figure to start the program. Once the program begins, it will show the progress of protein fitting and the successful completion (Fig. 3).
 
-![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_launch.png "Figure 2")
+![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_launch2.png "Figure 2")
 
 ![alt text](https://github.com/JUMPSuite/JUMPt/blob/main/Fig/matlab_excution.png "Figure 3")
 

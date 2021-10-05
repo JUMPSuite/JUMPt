@@ -83,7 +83,7 @@ if params.setting == 1
             for j =1 : length(solutions)
                 Lys_P_init      = ones(1,number_param);
              	[t,Lys_P]       = ode15s(@(t,Lys_P)PT_ODE_Ratio_fixLys(t,Lys_P,solutions(j).X, gama_Lys_best,SILAC_food_impurity),data.t,Lys_P_init);
-            	Error_proteins_ = sum(nansum((data.SILAC_data_temp(:,2:end) - Lys_P(:,2:end)).^2));
+            	Error_proteins_ = nansum(nansum((data.SILAC_data_temp(:,2:end) - Lys_P(:,2:end)).^2));
                 if Error_proteins_ < Error_proteins
                     Error_proteins  = Error_proteins_; 
                     Gfit_final      = solutions(j).X;
@@ -123,7 +123,7 @@ if (params.setting	 == 2)
         for j =1 : length(solutions)
             Lys_P_init      = ones(1,number_param-1);
             [t,Lys_P]       = ode15s(@(t,Lys_P)PT_ODE_Ratio(t,Lys_P,solutions(j).X,SILAC_food_impurity),data.t,Lys_P_init);
-            Error_free_Lys_ = sum((Lys_P(:,1) - data.LysRatio').^2);
+            Error_free_Lys_ = nansum((Lys_P(:,1) - data.LysRatio').^2);
             if (Error_free_Lys_ < Error_free_Lys )
                 Gfit_final      = solutions(j).X;
                 Error_free_Lys  = Error_free_Lys_;
